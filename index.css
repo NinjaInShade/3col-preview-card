@@ -7,7 +7,7 @@
 }
 
 .card {
-  padding: 50px;
+  padding: 40px 50px;
 }
 
 .card-orange {
@@ -35,4 +35,19 @@
   margin-bottom: 75px;
   max-width: 200px;
   line-height: 1.75;
+}
+
+@media (max-width: 800px) {
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card-description {
+    max-width: none;
+    margin-bottom: 30px;
+  }
+
+  .card-title {
+    margin: 20px 0 16px 0;
+  }
 }

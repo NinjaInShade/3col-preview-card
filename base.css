@@ -37,15 +37,9 @@ h2 {
   font-family: 'Big Shoulders Display', cursive;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
   :root {
-    --h2: 22px;
-  }
-}
-
-@media (max-width: 500px) {
-  :root {
-    --h2: 18px;
+    --h2: 26px;
     --body: 12px;
   }
 }
