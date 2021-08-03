@@ -1,0 +1,37 @@
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card {
+  padding: 50px;
+}
+
+.card-orange {
+  background-color: var(--bright-orange);
+}
+
+.card-cyan {
+  background-color: var(--dark-cyan);
+}
+
+.card-dark-cyan {
+  background-color: var(--v-dark-cyan);
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-size: var(--h2);
+  color: var(--v-light-gray);
+  margin: 25px 0;
+}
+
+.card-description {
+  font-size: var(--body);
+  color: var(--transparent-white);
+  max-width: 200px;
+  line-height: 1.75;
+}
