@@ -23,12 +23,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/desktop_solution.png)
+![](./screenshots/Desktop_solution.png)
+![](./screenshots/Mobile_solution.png)
 
 ### Links
 
-- Solution URL: (https://www.frontendmentor.io/solutions/responsive-site-with-css-vars-x9QFb1XaX)
-- Live Site URL: (https://lm-stats-preview-card.netlify.app/)
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-cards-with-flexbox-and-media-queries-css-vars-UGhgrDQ2E)
+- Live Site URL: (https://lm-3col-preview-card.netlify.app/)
 
 ## My process
 
@@ -41,19 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-This was a pretty easy challenge for me, as I'm starting from the easy projects on frontend mentor and working my way through them all, however I still learnt something! Firstly, most of my time was spent trying to be pixel perfect, and I didn't have design files so kept readjusting stuff (me trying to be perfect...)
+I loved the design on this challenge. Nothing really challenged me, neither did I really learn much from this one, but great for practice! One thing I will say, I adjusted my solution from the design images slightly on the mobile view.
 
-One thing I learnt was the mix-blend-mode property for images, to try to get my image overlay to match the design image.
-
-```css
-.card-img {
-  object-fit: cover;
-  mix-blend-mode: multiply;
-  opacity: 80%;
-}
-```
-
-Along with this property, I lowered opacity and it made the image fit in with the whole colour theme so much better.
+I increased the margin between the card description and button on mobile view, where the cards are stacked. I felt more whitespace gave the design more room to breath and easier to read.
 
 ## Author
 
